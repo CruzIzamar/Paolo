@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>QUIZ</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGS03+Hhxv8T/Q5PaXtkktuбug5T0eNV6gBiFeWPGFN9Muh0f23091fjh" crossorigin=" anonymous">
+    <script src="appQuiz.js"></script>
+
+<center>
+  <img src="../img/quizt.png"width="600" align="top">
+    <br>
+</center>
+</head>
+<body>
+    <div class="container text-left">
+        <div class="row"> 
+        	<div class="col-6">
+        	  <hr>
+              <h4>Preguntas</h4>
+              
+              <h6>¿Cuál era el origen de Paolo Veronese?</h6> 
+              <input type="radio" name="p1" value="a">Venecia 
+              <input type="radio" name="p1" value="b">España
+              <input type="radio" name="p1" value="c">México
+              <input type="radio" name="p1" value="d">Rumanía
+              <br>
+              <h6>¿En qué año nació?</h6>
+              <input type="radio" name="p2" value="a">1845
+              <input type="radio" name="p2" value="b">1528
+              <input type="radio" name="p2" value="c">1900
+              <input type="radio" name="p2" value="d">1470
+              <br>
+              <h6>¿En qué escuela destacó?</h6> 
+              <input type="radio" name="p3" value="a">La Bauhaus
+              <input type="radio" name="p3" value="b">Rumana
+              <input type="radio" name="p3" value="c">Veneciana
+              <input type="radio" name="p3" value="d">Española
+              <br>
+              <h6>¿En qué año se realizó la obra "Perseus Freeing Andromeda"?</h6>
+              <input type="radio" name="p4" value="a">1800
+              <input type="radio" name="p4" value="b">1520
+              <input type="radio" name="p4" value="c">1470
+              <input type="radio" name="p4" value="d">1570
+              <br> 
+              <h6>¿Cuál era uno de los principales temas de sus obras?</h6>
+              <input type="radio" name="p5" value="a">Religión
+              <input type="radio" name="p5" value="b">Erotismo
+              <input type="radio" name="p5" value="c">Guerra
+              <input type="radio" name="p5" value="d">Romanticismo
+ 
+              <br>
+              <p></p>
+              <button onclick="evaluarQuiz()" class="btn btn-success">Evaluar</button>
+              <button onclick="resetQuiz()" class="btn btn-danger">Reset</button>
+
+            </div>
+            <div class="col-6" id="resultado">
+             <hr>
+              <h4>Resultado</h4>
+               
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+</body>
+</html>
